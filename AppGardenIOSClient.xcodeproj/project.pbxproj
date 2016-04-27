@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		E2004B5A1CD0838C0073C284 /* AppGardenIOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGardenIOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2004B5D1CD0838C0073C284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2004B5F1CD0838C0073C284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		E2004B5F1CD0838C0073C284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2004B621CD0838C0073C284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2004B641CD0838C0073C284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2004B671CD0838C0073C284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +110,6 @@
 		E2004B7E1CD084360073C284 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E2004B5F1CD0838C0073C284 /* ViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +117,7 @@
 		E2004B7F1CD0843C0073C284 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E2004B5F1CD0838C0073C284 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
