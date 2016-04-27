@@ -13,6 +13,7 @@
 		E2004B651CD0838C0073C284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2004B641CD0838C0073C284 /* Assets.xcassets */; };
 		E2004B681CD0838C0073C284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2004B661CD0838C0073C284 /* LaunchScreen.storyboard */; };
 		E2004B731CD0838C0073C284 /* AppGardenIOSClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2004B721CD0838C0073C284 /* AppGardenIOSClientTests.swift */; };
+		E2004B841CD088E00073C284 /* BasicVisitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2004B831CD088E00073C284 /* BasicVisitCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E2004B6E1CD0838C0073C284 /* AppGardenIOSClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppGardenIOSClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2004B721CD0838C0073C284 /* AppGardenIOSClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGardenIOSClientTests.swift; sourceTree = "<group>"; };
 		E2004B741CD0838C0073C284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2004B831CD088E00073C284 /* BasicVisitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicVisitCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		E2004B7E1CD084360073C284 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2004B821CD088A70073C284 /* VisitCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +137,14 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E2004B821CD088A70073C284 /* VisitCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2004B831CD088E00073C284 /* BasicVisitCell.swift */,
+			);
+			path = VisitCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2004B841CD088E00073C284 /* BasicVisitCell.swift in Sources */,
 				E2004B601CD0838C0073C284 /* ViewController.swift in Sources */,
 				E2004B5E1CD0838C0073C284 /* AppDelegate.swift in Sources */,
 			);
